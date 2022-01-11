@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela!</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+
+            Shorthand - background
+            Ela usa nessa ordem:
+            color > image > position > repeat > [size] > attachment
+            exemplo: 
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+            o size ainda não funciona no Shorthand
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
-            background-color: blanchedalmond;
-            width: 400px;
+            background-color: rgb(174, 209, 218);
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkorchid;
